@@ -8,3 +8,8 @@ You may define a separate function that finds the average of a list, though you 
 '''
 def above_average(lst):
   pass #delete this line when you start writing your code
+
+
+
+
+#need to work on

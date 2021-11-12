@@ -6,3 +6,9 @@ Define a function second_smallest that takes a list of integers or floats as an 
 '''
 def second_smallest(lst):
   pass #delete this line when you start writing your code
+
+
+
+
+
+#need to work on
