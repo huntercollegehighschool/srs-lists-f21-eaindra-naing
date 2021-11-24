@@ -12,9 +12,7 @@ def number_of_odds(lis):
   for i in lis:
     if i % 2 == 1:
       odds.append (i)
-  print(len(odds))
-
-#figure why none prints afterwards
+  return (len(odds))
 
 
 
