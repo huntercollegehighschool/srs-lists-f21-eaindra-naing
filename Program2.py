@@ -9,15 +9,19 @@ def odd_reverse(lis):
   for i in lis:
     if i % 2 == 1:
       odds.append (i)
+  odds.sort(reverse = True) 
+  return (odds)
   
 
 
-
-#need to work on
-
-
-
 """
+def number_of_odds(lis):
+  odds = []
+  for i in lis:
+    if i % 2 == 1:
+      odds.append (i)
+  return (len(odds))
+  
 elif program == '2':
   lis = [int(i) for i in input("Enter a list, each element separated by a space: ").split()]
   print(odd_reverse(lis))

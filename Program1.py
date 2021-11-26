@@ -23,4 +23,3 @@ if program == '1':
   print(number_of_odds(lis))
 """
 
-#need to work on
