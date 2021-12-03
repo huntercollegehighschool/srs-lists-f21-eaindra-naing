@@ -6,5 +6,18 @@ Define a function above_average that takes a list of integers or floats as an ar
 
 You may define a separate function that finds the average of a list, though you don't have to.
 '''
-def above_average(lst):
-  pass #delete this line when you start writing your code
+def above_average(lis):
+  for i in lis:
+    average = sum(lis) / len(lis)
+    greater = []
+    if i > average:
+      greater.append (i)
+  return greater
+
+  
+
+'''
+elif program == '4':
+  lis = [int(i) for i in input("Enter a list of numbers separated by a space: ").split()]
+  print(above_average(lis))
+'''
